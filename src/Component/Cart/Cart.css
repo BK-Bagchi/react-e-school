@@ -1,0 +1,40 @@
+.cart,.row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cart{
+    flex-direction:column
+}
+.row{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.cart img{
+    width:100%;
+    border-radius: 5px;
+}
+.course{
+    min-width: 250px;
+    padding:0;
+}
+.big-container{
+    margin: 5px;
+    box-shadow: 5px 5px 15px lightgrey;
+    border-radius: 10px !important;
+    padding: 10px;
+}
+.big-container h6 span{
+    font-size:20px;
+}
+.rating-star{
+    color: orange
+}
+.rating-number{
+    color:orangered;
+    font-weight: 700;
+}
+.cart-table{
+    border-radius: 10px;
+    overflow: hidden;
+}

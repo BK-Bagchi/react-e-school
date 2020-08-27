@@ -1,0 +1,47 @@
+.navigation{
+    background: royalblue
+}
+.navigation ul li{
+    padding: 4px 30px;
+    margin: 0 5px;
+    font-size:30px;
+    cursor: pointer;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+.courses{
+    margin-top: -10px;
+}
+.card-group{
+    /* width:300px; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+.show-detail,.single-course{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.show-detail{
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+.show-detail .big-container{
+    background: white;
+    box-shadow: none;
+}
+.show-detail h6 span{
+    font-size:25px;
+}
+.quit{
+    color: white;
+    font-size:40px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.card{
+    height: 450px;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 5px 10px !important;
+    border: none !important;
+    overflow: hidden;
+    border-radius: 10px !important;
+    box-shadow: 5px 5px 15px lightgrey;
+}
+.card-img-top{
+    max-height: 165px;;
+}
+.card-body{
+    padding: 10px
+}
+.card-footer{
+    display:flex;
+    justify-content:space-around;
+    background: white;
+    border: none;
+    padding: 20px 10px
+}
+.card-title, .card-text{
+    margin: 3px 0;
+}
+.card .btn-info:hover{
+    background: transparent;
+    border: 1px solid #17A2B8;
+    color: #17A2B8;
+}
